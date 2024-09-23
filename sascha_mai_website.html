@@ -1,0 +1,107 @@
+
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sascha Mai - Paragliding Pilot</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+        }
+        main {
+            max-width: 1200px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: white;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+        section {
+            margin-bottom: 40px;
+        }
+        .profile-photo {
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+            margin: 0 auto;
+            display: block;
+        }
+        .bio {
+            text-align: center;
+            margin: 20px 0;
+        }
+        .bio h2 {
+            font-size: 1.8em;
+        }
+        .bio p {
+            font-size: 1.2em;
+        }
+        .gallery {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            justify-content: center;
+        }
+        .gallery img {
+            width: 300px;
+            height: 200px;
+            object-fit: cover;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            transition: transform 0.3s;
+        }
+        .gallery img:hover {
+            transform: scale(1.05);
+        }
+        footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #4CAF50;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Sascha Mai</h1>
+    <p>Paragliding Pilot & Abenteurer</p>
+</header>
+
+<main>
+    <section class="bio">
+        <img src="profilfoto.jpg" alt="Profilfoto von Sascha Mai" class="profile-photo">
+        <h2>Über mich</h2>
+        <p>Hi, ich bin Sascha Mai, ein leidenschaftlicher Paragliding Pilot und Abenteurer. Im Jahr 2010 habe ich die Mongol Rallye von Barcelona nach Ulan Bataar gefahren, ein aufregendes Erlebnis, das meinen Entdeckergeist weiter entfacht hat.</p>
+    </section>
+
+    <section class="projects">
+        <h2>Meine Projekte</h2>
+        <div class="gallery">
+            <img src="projekt1.jpg" alt="Projekt 1">
+            <img src="projekt2.jpg" alt="Projekt 2">
+            <img src="projekt3.jpg" alt="Projekt 3">
+            <img src="projekt4.jpg" alt="Projekt 4">
+        </div>
+    </section>
+</main>
+
+<footer>
+    <p>Kontakt: sascha.mai@example.com | © 2024 Sascha Mai</p>
+</footer>
+
+</body>
+</html>
